@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Tahoma, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url('weather3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    display: flex;
+   justify-content: center;
+    text-align: center;
+}
+
+.container {
+    margin-top: 200px;
+    width:500px;
+    height:400px;
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+  }
+
+  .heading h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px black;
+   font-weight: 600;
+  }
+  
+  .content label {
+    display:block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    color:black
+
+  }
+  
+  .content input[type="number"],
+  .content select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+  }
+  
+  .content input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+   border: none;
+    box-shadow: 0 0 5px ;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .content input[type="submit"]:hover {
+    background-color: royalblue;
+    color:white;
+    box-shadow: 0 0 5px black;
+  }
+  span{
+    
+    color:black;
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 0 0 3px black;
+  }
