@@ -1,0 +1,122 @@
+//Taking an array as an input and printing its elements.
+
+import java.util.*;
+class hello{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,i;
+        n=sc.nextInt();
+        System.out.println(n);
+        int[] arr=new int[n];
+        for(i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        for(i=0;i<n;i++)
+        {
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+===================================================================================================================================================================
+//Take an array of names as input from the user and print them on the screen.
+
+import java.util.*;
+class hello{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,i;
+        n=sc.nextInt();
+        System.out.println(n);
+        String[] arr=new String[n];
+        for(i=0;i<n;i++)
+        {
+            arr[i]=sc.next();
+        }
+        for(i=0;i<n;i++)
+        {
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+
+======================================================================================================================================================================
+
+//Find the maximum & minimum number in an array of integers
+
+
+
+import java.util.*;
+class hello{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,i;
+        n=sc.nextInt();
+        System.out.println(n);
+        int[] arr=new int[n];
+        for(i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        for(i=0;i<n;i++)
+        {
+            if(arr[i]<min)
+            {
+                min=arr[i];
+            }
+            if(arr[i]>max)
+            {
+                max=arr[i];
+            }
+        }
+        System.out.println("largest:"+max);
+        System.out.println("Smallest:"+min);
+    }
+}
+
+
+=================================================================================================================================================================
+
+//linear Search 
+
+import java.util.*;
+class main{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,i;
+        n=sc.nextInt();
+        int[] arr=new int[n];
+        for(i=0;i<arr.length;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        int target=sc.nextInt();
+        for(i=0;i<arr.length;i++)
+        {
+            if(arr[i]==target)
+            {
+                System.out.println("element found at position : "+i);
+            }
+            else
+            {
+                System.out.println("element not found");
+            }
+        }
+    }
+}
+
+=============================================================================================================================================================
+
+
+==================================================================================================================================================================
+
+
